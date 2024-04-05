@@ -1,0 +1,57 @@
+*{
+    box-sizing: box-content;
+  }
+  
+  body{
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    width: 85%;
+    padding-top: 10px;
+    min-width: 300px;
+  }
+  
+  #title, #description{
+    text-align: center;
+  }
+  
+  #description{
+    font-size: 14px;
+  }
+  
+  fieldset{
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+  }
+  
+  fieldset:last-of-type{
+    border: none;
+  }
+  
+  legend{
+    text-align: center;
+  }
+  
+  input, select, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+    width: unset;
+  }
+  
+  textarea{
+    resize: none;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    margin: auto;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    width: 40%;
+  }

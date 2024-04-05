@@ -1,0 +1,111 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thanks you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>User Data</legend>
+        <label for="name" id="name-label">Name <input id="name" type="text" required placeholder="Enter your name here"></label>
+      <label for="email" id="email-label">Email <input id="email" type="email" required placeholder="Enter your email here"></label>
+      <label for="number" id="number-label">Age <input id="number" type="number" required placeholder="Age" min="13" max="120"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Several Options</legend>
+        <label for="dropdown"> Choose your favourite coding side
+          <select name="side" id="dropdown" required>
+            <option value="">None</option>
+            <option value="front">Front-End</option>
+            <option value="back">Back-End</option>
+          </select>
+        </label>
+        <p>Would you recommend coding to a friend?</p>
+        <input type="radio" name="recommend" value="Yes" checked id="yes"><label for="yes"> Yes</label>
+        <input type="radio" name="recommend" value="No" id="no"><label for="no"> No</label><br>
+        <p>Select what you prefer about coding:</p>
+        <input type="checkbox" name="difficulty" id="difficulty" value="difficulty"><label for="difficulty"> Difficulty</label>
+        <input type="checkbox" name="knowledge" id="knowledge" value="knowledge"><label for="knowledge"> Knowledge</label>
+        <input type="checkbox" name="investigation" id="investigation" value="investigation"><label for="investigation"> Investigation</label>
+      </label>
+      </fieldset>
+      <fieldset>
+        <legend>Additional Info</legend>
+        <label for="bio">Use this space to give a short bio<textarea rows="5" cols="40" id="bio" placeholder="Tell me more about you"></textarea></label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  box-sizing: box-content;
+}
+
+body{
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  margin: auto;
+  width: 85%;
+  padding-top: 10px;
+  min-width: 300px;
+}
+
+#title, #description{
+  text-align: center;
+}
+
+#description{
+  font-size: 14px;
+}
+
+fieldset{
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 10px;
+}
+
+fieldset:last-of-type{
+  border: none;
+}
+
+legend{
+  text-align: center;
+}
+
+input, select, textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: unset;
+}
+
+textarea{
+  resize: none;
+}
+
+input[type="submit"]{
+  display: block;
+  margin: auto;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  width: 40%;
+}
+
+** end of undefined **
+
