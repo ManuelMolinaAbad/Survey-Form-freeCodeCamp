@@ -1,7 +1,7 @@
 <h1>Build a Survey Form</h1>
 
 # Description
-This project is focused on creating a survey form from scratch using HTML and some basic CSS styling. It is the first exercise to dobe done in order to get the "Responsive Web Design" Certification by freeCodeCamp.org. 
+This project is focused on creating a survey form from scratch using HTML and some basic CSS styling. It is the first exercise to do be done in order to get the "Responsive Web Design" Certification by freeCodeCamp.org. 
 
 In order to validate the project it has had to pass the following automated tests:
 
